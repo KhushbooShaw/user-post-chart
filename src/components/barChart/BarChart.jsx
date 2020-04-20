@@ -56,14 +56,13 @@ class PercentageArea extends React.Component {
         }
       },
       series: [{
-        name: 'val_1',
         showInLegend: false,
         color: 'rgba(87,178,93,1)',
         data: barChartColumn.greenColumn1,
         pointPadding: 0.4,
         pointPlacement: -0.2
-      }, {
-        name: 'val_2',
+      },
+      {
         showInLegend: false,
         color: 'rgba(148,226,155,.7)',
         data: barChartColumn.greenColumn2,
@@ -71,7 +70,6 @@ class PercentageArea extends React.Component {
         pointPlacement: -0.2
       },
       {
-        name: 'val_3',
         showInLegend: false,
         color: 'rgba(248,161,63,1)',
         data: barChartColumn.redColumn1,
@@ -79,7 +77,6 @@ class PercentageArea extends React.Component {
         pointPlacement: -0.2
       },
       {
-        name: 'val_4',
         showInLegend: false,
         color: 'rgba(186,60,61,.5)',
         data: barChartColumn.redColumn2,
