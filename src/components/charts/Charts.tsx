@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import 'antd/dist/antd.css';
 import './Charts.scss'
 import { Row, Col } from 'antd';
-import _ from 'lodash';
 import BarChart from 'components/barChart/BarChart';
 
 interface IChartsProps {
@@ -31,7 +30,7 @@ class Charts extends React.Component<IProps,IState> {
 
     render() { 
         return(
-        <div className="home-container">
+        <div className="chart-container">
          <Row gutter={{ md: 10, lg: 10, xl: 24, xxl: 24 }}>
             <Col span={24}>
              <BarChart />

@@ -1,7 +1,6 @@
 import React from 'react';
 import Autosuggest from 'react-autosuggest';
 import './QuickSearch.scss';
-import _ from 'lodash';
 import { SearchOutlined, LoadingOutlined } from '@ant-design/icons';
 import { ISuggestion } from '.';
 

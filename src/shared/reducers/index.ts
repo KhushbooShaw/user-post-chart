@@ -1,4 +1,4 @@
-import { combineReducers, Reducer } from 'redux';
+import { combineReducers } from 'redux';
 import user,{ UserState } from 'shared/reducers/user/user.reducer';
 import post, { PostState } from 'shared/reducers/post/post.reducer';
 import { connectRouter, RouterState } from 'connected-react-router';
