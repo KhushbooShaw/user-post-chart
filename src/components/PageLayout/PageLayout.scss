@@ -1,0 +1,16 @@
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-left: -95%;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.site-layout-background {
+  background: linear-gradient(to right bottom, #648880, #293f50);
+}

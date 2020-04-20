@@ -1,0 +1,95 @@
+.quick-serach {
+    width: 20%;
+    height: 40px;
+    // float: left;
+    background-color: #ffffff;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline-flex;
+    position: relative;
+    margin-bottom: 10px;
+    input.react-autosuggest__input::placeholder {
+      color: #bfbfbf;
+    }
+    .suggestionBox {
+      width: 100%;
+      color: #ffff;
+      margin-bottom: 1px;
+      border-bottom-color: black;
+      cursor: pointer;
+    }
+    .react-autosuggest__container {
+      width: 100%;
+    }
+    input.react-autosuggest__input {
+      height: 32px;
+      color: #949494 !important;
+      padding: 6px 7px;
+      font-size: 14px !important;
+      line-height: 1.5;
+      background-color: #eee;
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+      overflow: visible;
+      width: 100%;
+    }
+    .react-autosuggest__suggestions-container.react-autosuggest__suggestions-container--open {
+      border: 1px solid #c5c6ca;
+      background-color: #fff;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+      box-sizing: border-box;
+      z-index: 1050;
+      position: absolute;
+      outline: none;
+      overflow: auto;
+      max-height: 250px;
+      font-size: 14px;
+      width: 100%;
+      left: -0.015625px;
+      margin: 0px;
+      padding: 5px 0px 2px 2px;
+      ul {
+        outline: none;
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style: none;
+        overflow: auto;
+        background-color: #fff;
+        color: #949494;
+        li {
+          //border-bottom: 1px #ccd0d8 solid;
+          line-height: 26px;
+          padding: 5px 10px;
+          font-weight: normal;
+          color: rgba(0, 0, 0, 0.65);
+          cursor: pointer;
+          word-break: normal;
+        }
+        .react-autosuggest__suggestion--highlighted {
+          background: #ebf5ff;
+        }
+        div {
+          background-color: #0000 !important;
+          color: #949494 !important;
+        }
+      }
+    }
+    .searchbox-icon {
+      position: absolute;
+      right: 0;
+      height: 100%;
+      width: 39px;
+      margin-top: 8px;
+      .anticon {
+        height: 29px;
+        width: 39px;
+        color: #646c72;
+        font-size: 14px;
+        font-weight: 500;
+        vertical-align: sub;
+        display: inline-block;
+      }
+    }
+  }

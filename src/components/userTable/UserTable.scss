@@ -1,0 +1,108 @@
+.user-table-grid {
+  width: 100%;
+  .ant-table-fixed-header .ant-table-scroll .ant-table-header {
+    overflow: scroll;
+    opacity: 0.9999;
+    background-color: rgb(232,232,232);
+    &::-webkit-scrollbar {
+      background-color: transparent;
+    }
+    &::-webkit-scrollbar-track {
+      box-shadow: none;
+      background-color: transparent;
+    }
+  }
+
+  .ant-pagination.mini .ant-pagination-options {
+    margin-left: 2px;
+    float: left;
+  }
+  .ant-table {
+    width: 100%;
+    .ant-table-thead > tr > th span {
+        font-size: 11px;
+        letter-spacing: 0.9px;
+        font-weight: 600;
+        color: '#646c72';
+        text-align: center;
+    }
+  }
+  .ant-table table {
+    text-align: center !important;
+  }
+  .ant-table-container table > thead > tr:first-child th {
+    font-weight: 600;
+    color: '#646c72';
+    text-align: center;
+  }
+  .table-spin-loading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .ant-table-tbody > tr > td {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 0px;
+    overflow: hidden;
+  }
+  .ant-table {
+    font-size: 14px;
+    color:  rgba(0, 0, 0, 0.65);;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+    .ant-table-large .ant-table-fixed-header .ant-table-scroll-position-left {
+      height: calc(100% - 50px);
+    }
+
+    .ant-table-thead > tr > th span {
+      font-size: 14px;
+      color: #646c72;
+      font-weight: 600;
+      letter-spacing: 0.9px;
+    }
+
+    .ant-table-thead > tr > th {
+      text-overflow: ellipsis;
+      background-color: #e8ebed;
+      white-space: nowrap;
+      width: 33.33%;
+      overflow: hidden;
+    }
+    .ant-table-body {
+      height: grid-height('user', 0.7, 'min');
+      overflow-y: hidden;
+      color:#979797;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.69px;
+      word-break: break-word;
+    }
+    .ant-table-scroll {
+      .ant-table-placeholder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: calc(#{grid-height('user', 0.7, 'min')} * -1);
+        height: calc(#{grid-height('user', 0.7, 'min')} + 56px); // 56px is the height of pagination
+        .lp-table-content {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+.name-button {
+  cursor: pointer;
+  background: none !important;
+  border: none;
+  color: #1890ff;
+}
+.name-button:active {
+  box-shadow: none;
+}
