@@ -5,28 +5,6 @@ import _ from 'lodash';
 import { SearchOutlined, LoadingOutlined } from '@ant-design/icons';
 import { ISuggestion } from '.';
 
-// function renderOption(option: ISuggestion) {
-//   const item: ISuggestion = _.has(option, 'fieldName') ? option : defaultSuggestion[0];
-//   const noItem = item.count === 0;
-//   return (
-//     item &&
-//     <Option key={item.fieldName} disabled={noItem}>
-//       <div className="lp-global-search-item">
-//         <span className="lp-global-search-item-desc">
-//           {noItem ? (
-//             item.fieldName
-//           ) : (
-//             <span>
-//               {' '}
-//               {item.count} results in <b>{item.fieldName}</b>{' '}
-//             </span>
-//           )}
-//         </span>
-//       </div>
-//     </Option>
-//   );
-// }
-
 /**
  * Performs the search
  *
@@ -41,9 +19,6 @@ interface IProps {
   onSuggestionsFetchRequested: (value: any) => void;
   onSuggestionsClearRequested: () => void;
   onSuggestionSelected: (event: any, suggestion: any) => void;
-//   onQsSelectionChange: (value?: SelectValue) => void;
-//   onQsValueChange: (value: SelectValue) => void;
-//   onQsEnter: (value?: string) => void;
 }
 
 // When suggestion is clicked, Autosuggest needs to populate the input

@@ -15,7 +15,6 @@ interface IPageLayoutProps {
 };
 
 const PageLayout: React.FC<IPageLayoutProps> = (props: IPageLayoutProps) => {   
-    console.log(props.collapsed);
         return ( <Layout className="site-layout">
         <Header className="site-layout-background" style={{ padding: 0}}>
           {React.createElement(props.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {

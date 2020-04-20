@@ -11,7 +11,7 @@ interface IProps {
 const PostList: React.FC<IProps> = (props: IProps) => {
  const pagination={
     onChange: (page: any) => {
-      console.log(page);
+
     },
     pageSize: 5
   }

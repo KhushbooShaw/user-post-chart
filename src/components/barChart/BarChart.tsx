@@ -10,6 +10,7 @@ const BarChart: React.FC<IProps> = (props: IProps) => {
 
  return (
   <div className="bar-chart">
+   <h1> Bar Chart </h1>
   </div>
   );
 };
