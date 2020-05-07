@@ -7,8 +7,10 @@ User Page --> The page shows the list of users in application and give facility 
 Post page --> on click of any of userid, post page will open with list of all posts by that user.
 post page contains a back button to navigate back to user page.
 
-Chart page--> Chart page open by navigating through side nav.
+Chart page --> Chart page open by navigating through side nav.
 It contains a fixed column highchart.
+
+Website link --> https://user-post-chart.herokuapp.com
 
 ## Available Scripts
 
