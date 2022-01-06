@@ -43,7 +43,7 @@
     "moment-timezone": "^0.5.28",
     "node-sass": "^4.13.1",
     "papaparse": "^5.2.0",
-    "parse-link-header": "^1.0.1",
+    "parse-link-header": "^2.0.0",
     "react": "^16.13.1",
     "react-app-rewired": "^2.1.5",
     "react-autosuggest": "^10.0.0",
